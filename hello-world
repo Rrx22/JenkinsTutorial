@@ -5,6 +5,11 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World version 2'
+            }            
+        }
+        stage('Response') {
+            steps {
+                echo 'Response in version 3';
             }
         }
     }

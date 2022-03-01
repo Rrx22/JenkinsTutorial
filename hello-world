@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Response') {
             steps {
-                echo 'Response in version 3';
+                echo 'Response in version 3'
             }
         }
     }
